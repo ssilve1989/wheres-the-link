@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where's the Link?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+    <div class="max-w-3xl mx-auto p-6">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-extrabold text-red-500 mb-4">wheresthelink.com</h1>
+            <p class="text-lg text-gray-600">
+                Helping others help you. Because "My PR is failing CI" isn't helpful without a link.
+            </p>
+        </header>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4">🚫 Stop doing this</h2>
+            <div class="bg-red-100 text-red-800 p-4 rounded-md shadow">
+                <p class="mb-2">🚫 "My build is failing."</p>
+                <p class="mb-2">🚫 "Why is my API throwing an error?"</p>
+                <p>🚫 "This code snippet isn't working."</p>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4">✅ Start doing this</h2>
+            <div class="bg-green-100 text-green-800 p-4 rounded-md shadow">
+                <p class="mb-2">✅ "My build is failing. Here's the link to the logs: <a href="#" class="text-green-600 underline">[insert link]</a>."</p>
+                <p class="mb-2">✅ "My API is throwing a <code class="bg-gray-200 px-1 rounded">500</code> error. Here's my endpoint, the payload, and the server logs: <a href="#" class="text-green-600 underline">[link]</a>."</p>
+                <p>✅ "This code snippet isn't working, and here’s the full context of my implementation: <a href="#" class="text-green-600 underline">[link]</a>."</p>
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4">💡 Why it matters</h2>
+            <p class="text-gray-700">
+                You might <em>think</em> you're saving time by being brief, but you're actually creating more work for
+                everyone (including yourself). A good link or detailed context is like giving a flashlight in a dark
+                room: it helps everyone see what’s going on.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4">👩‍💻 Simple Rule</h2>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>If you're asking for help and there’s a relevant link—<strong>include it</strong>.</li>
+                <li>No link? Include <strong>everything</strong> you can: logs, screenshots, the full context.</li>
+            </ul>
+            <p class="mt-4 italic text-gray-600">
+                "Where’s the link??" is the tech equivalent of "Where’s the fire??" Don’t leave your teammates guessing. ✌️
+            </p>
+        </section>
+
+        <footer class="text-center text-sm text-gray-500">
+            © 2025 Where's the Link. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
